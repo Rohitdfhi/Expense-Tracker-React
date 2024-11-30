@@ -7,7 +7,6 @@ import CategoriesContext from "../store/CategoriesContext";
 const AddToBudget = () => {
   const { addCategory } = useContext(CategoriesContext);
   const { addHistoryElement } = useContext(HistoryContext);
-
   const [label, setLabel] = useState("");
   const [value, setValue] = useState(0);
   const navigate = useNavigate();
